@@ -32,8 +32,7 @@ export default class TouchableItem
     borderless: PropTypes.bool,
     pressColor: PropTypes.string,
     pressOpacity: PropTypes.number,
-    children: PropTypes.node.isRequired,
-    style: View.propTypes.style,
+    children: PropTypes.node.isRequired
   };
 
   static defaultProps = {

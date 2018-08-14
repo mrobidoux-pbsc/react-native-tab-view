@@ -18,10 +18,6 @@ export default class TopBarTextExample extends PureComponent<void, *, State> {
   static title = 'Scrollable top bar';
   static appbarElevation = 0;
 
-  static propTypes = {
-    style: View.propTypes.style,
-  };
-
   state: State = {
     index: 1,
     routes: [

@@ -20,10 +20,6 @@ export default class TopBarTextExample extends PureComponent<void, *, State> {
   static tintColor = '#222';
   static appbarElevation = 0;
 
-  static propTypes = {
-    style: View.propTypes.style,
-  };
-
   state: State = {
     index: 0,
     routes: [
